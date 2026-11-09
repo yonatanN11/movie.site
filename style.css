@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
 }
 h1 {
-    color: #f5c518;
+    color: #18f587;
     font-size: 36px;
 }
 header {
@@ -27,7 +27,7 @@ nav {
     color: #555555;
 }
 .movie h2 {
-    color: #f5c518;
+    color: #18f587;
     font-size: 24px;
 }
 .movie span {
@@ -35,7 +35,7 @@ nav {
     font-weight: bold;
 }
 .movie a {
-    color: #f5c518;
+    color: #18f57b;
 }
 .movie img {
     width: 200px;
@@ -45,7 +45,7 @@ nav {
     width: 200px;
 }
 .about h2 span {
-    color: #f5c518;
+    color: #18f56d;
 }
 footer {
     background-color: #000000;
@@ -58,6 +58,14 @@ footer a {
 }
 
 footer span {
-    color: #f5c518;
+    color: #18f56d;
     font-weight: bold;
+}
+nav a.active {
+    color: #52d67e; 
+    font-weight: bold;
+}
+nav a:hover {
+    color: #48e971;
+    transition: color 0.3s ease;
 }
