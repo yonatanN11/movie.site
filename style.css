@@ -13,8 +13,12 @@ h1 {
 }
 header {
     background-color: #000000;
+    background-image: url("images/cinema-banner.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    border-bottom: 2px solid #29e979;
 }
-
 header img {
     width: 180px;
 }
@@ -43,9 +47,9 @@ nav {
 
 .about img {
     width: 200px;
-}
-.about h2 span {
-    color: #18f56d;
+    border: 3px solid #18f55a;
+    border-radius: 50%;
+    box-shadow: 0 4px 14px rgba(16, 228, 129, 0.25);
 }
 footer {
     background-color: #000000;
@@ -68,4 +72,22 @@ nav a.active {
 nav a:hover {
     color: #48e971;
     transition: color 0.3s ease;
+}
+.movie {
+    background-color: #202020;
+    border: 1px solid #3a3a3a;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+    padding: 16px;
+    margin-bottom: 20px;
+}
+.movie img {
+    width: 200px;
+    border: 2px solid #18f57b;
+    border-radius: 8px;
+}
+.movie:hover {
+    background-color: #2ff38731;
+    border-color: #11f78b;
+    box-shadow: 0 8px 20px rgb(19, 202, 102);
 }
